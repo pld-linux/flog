@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://oss.ezic.com/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	cc97339bd757a651558438463c5f2721
 URL:		http://oss.ezic.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
