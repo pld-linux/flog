@@ -1,7 +1,7 @@
 Summary:	A small STDIN-to-file logger with support for logrotation
 Summary(pl):	Ma³y logger strumienia ze wsparciem dla rotacji logów
 Name:		flog
-Version:	1.2
+Version:	1.3
 Release:	1
 License:	GPL
 Group:		Applications/System
