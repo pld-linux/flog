@@ -1,12 +1,12 @@
 Summary:	A small STDIN-to-file logger with support for logrotation
 Summary(pl):	Ma³y logger strumienia ze wsparciem dla rotacji logów
 Name:		flog
-Version:	1.3
+Version:	1.7
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://oss.ezic.com/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	cc97339bd757a651558438463c5f2721
+Source0:	http://oss.ezic.com/flog/%{name}-%{version}.tar.gz
+# Source0-md5:	2c8eaa80e29f137ce81a95c4b6ecf7fe
 URL:		http://oss.ezic.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
