@@ -25,7 +25,9 @@ logów.
 %setup -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -D_FILE_OFFSET_BITS=64 -D_LARGEFILE64_SOURCE=1"
 
 %install
 rm -rf $RPM_BUILD_ROOT
