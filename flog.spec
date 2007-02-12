@@ -1,5 +1,5 @@
 Summary:	A small STDIN-to-file logger with support for logrotation
-Summary(pl):	Ma³y logger strumienia ze wsparciem dla rotacji logów
+Summary(pl.UTF-8):   MaÅ‚y logger strumienia ze wsparciem dla rotacji logÃ³w
 Name:		flog
 Version:	1.7
 Release:	1
@@ -15,11 +15,11 @@ flog (file logger) is a small program that reads input from STDIN and
 writes to a file, optionally adding timestamps. If SIGHUP is received, the
 file will be reopened, allowing for log rotation.
 
-%description -l pl
-flog (file logger) jest ma³ym programem który czyta ze standardowego
-wej¶cia i zapisuje do pliku, ewentualnie dodaj±c znaczniki czasowe.  Je¶li
-otrzyma sygna³ HUP, plik bêdzie na nowo otwarty, pozwalaj±c na rotacjê
-logów.
+%description -l pl.UTF-8
+flog (file logger) jest maÅ‚ym programem ktÃ³ry czyta ze standardowego
+wejÅ›cia i zapisuje do pliku, ewentualnie dodajÄ…c znaczniki czasowe.  JeÅ›li
+otrzyma sygnaÅ‚ HUP, plik bÄ™dzie na nowo otwarty, pozwalajÄ…c na rotacjÄ™
+logÃ³w.
 
 %prep
 %setup -q
