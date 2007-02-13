@@ -1,5 +1,5 @@
 Summary:	A small STDIN-to-file logger with support for logrotation
-Summary(pl.UTF-8):   Mały logger strumienia ze wsparciem dla rotacji logów
+Summary(pl.UTF-8):	Mały logger strumienia ze wsparciem dla rotacji logów
 Name:		flog
 Version:	1.7
 Release:	1
